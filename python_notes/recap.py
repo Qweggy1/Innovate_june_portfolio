@@ -226,7 +226,8 @@ import random
 # print(f"The numbers {my_num} and {comp_num} do match")
 # _______________________________________________________
                 # Activity #1
-# cd = "Welcome to Code Nation todays"
+
+# cd = "Welcome to Code Nation today"
 # print(cd)
 
 # cdlen = len(cd)
@@ -250,4 +251,14 @@ import random
 #     print(f"{cdlen} is even")
 # else:
 #     print(f"{cdlen} is odd")
-# ___________________________________________________________
+# _________________________________________________________
+                # Activity #2
+
+# alpha = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u", "v", "w","x","y","z"]
+
+# for i in alpha:
+#     print(i)
+
+# answer=int(input("Type a number to see the letter!"))
+# answer -=1
+# print(alpha[answer])
