@@ -225,30 +225,29 @@ import random
 
 # print(f"The numbers {my_num} and {comp_num} do match")
 # _______________________________________________________
+                # Activity #1
+# cd = "Welcome to Code Nation todays"
+# print(cd)
 
-cd = "Welcome to Code Nation todays"
-print(cd)
+# cdlen = len(cd)
 
+# def cdleng():
+#     if (cdlen % 2) == 0:
+#         print(f"{cdlen} is even")
+#     else:
+#         print(f"{cdlen} is odd")
 
+# cdleng()
 
-cdlen = len(cd)
+# cd = "Welcome to Code Nation Todays"
+# print(cd)
 
-def cdleng():
-    if (cdlen % 2) == 0:
-        print(f"{cdlen} is even")
-    else:
-        print(f"{cdlen} is odd")
+# print(len(cd))
 
-cdleng()
+# cdlen = 29
 
-cd = "Welcome to Code Nation Todays"
-print(cd)
-
-print(len(cd))
-
-cdlen = 29
-
-if (cdlen % 2) == 0:
-    print(f"{cdlen} is even")
-else:
-    print(f"{cdlen} is odd")
+# if (cdlen % 2) == 0:
+#     print(f"{cdlen} is even")
+# else:
+#     print(f"{cdlen} is odd")
+# ___________________________________________________________
