@@ -55,15 +55,19 @@
 #     print(num1 + num2) # This is contanation, incorrect in this aspect. 
 # add_up()
 
-def add_up():
-    num1 = input("What is the first number you'd like to add up? \n")
-    num2 = input("What is the second number you'd like to add up? \n")
-    try:
-        print(int(num1) + int(num2)) # Try and Except would give our own personal error message.
-    except:
-        print("Please use numbers and no letters only!")
-        print("Try again? ")
-        add_up()
-        
-    
-add_up()
+# def add_up():
+#     num1 = input("What is the first number you'd like to add up? \n")
+#     num2 = input("What is the second number you'd like to add up? \n")
+#     try:
+#         print(int(num1) + int(num2)) 
+
+# Try and #Similar to IF WHATIF AND ELSE
+# 
+#Except would give our own personal error message.
+#     except:
+#         print("Please use numbers and no letters only!")
+#         print("Try again? ")
+#         add_up()
+
+# add_up()
+#______________________________________________________
