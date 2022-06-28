@@ -216,12 +216,39 @@ import random
 #     num += 1
 #     print(num)
 
-my_num = 28
-comp_num = random.randint(1,50)
+# my_num = 28
+# comp_num = random.randint(1,50) # Using random num gen to create a number between 1-50
 
-while my_num != comp_num:
-    print(f"The numbers {my_num} and {comp_num} do not match")
-    comp_num = random.randint(1,50)
+# while my_num != comp_num:
+#     print(f"The numbers {my_num} and {comp_num} do not match")
+#     comp_num = random.randint(1,50)
 
-print(f"The numbers {my_num} and {comp_num} do match")
+# print(f"The numbers {my_num} and {comp_num} do match")
+# _______________________________________________________
 
+cd = "Welcome to Code Nation todays"
+print(cd)
+
+
+
+cdlen = len(cd)
+
+def cdleng():
+    if (cdlen % 2) == 0:
+        print(f"{cdlen} is even")
+    else:
+        print(f"{cdlen} is odd")
+
+cdleng()
+
+cd = "Welcome to Code Nation Todays"
+print(cd)
+
+print(len(cd))
+
+cdlen = 29
+
+if (cdlen % 2) == 0:
+    print(f"{cdlen} is even")
+else:
+    print(f"{cdlen} is odd")
