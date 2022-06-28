@@ -1,4 +1,4 @@
-# import random
+import random
 # print("This is my file")
 
 # greeting = ("Hello World")
@@ -179,5 +179,49 @@
 
 # print(fav_genre)
 # _______________________________________________________
-                    #Loops
+                    #for Loops
+
+# fav_genre =[
+#     "Drum and Bass",
+#     "Techno",
+#     "Trance",
+#     "Rock",
+#     "Dance",
+#     "Pop"
+
+# ]
+
+# for i in fav_genre: # For loop runs until it has nothing to index to
+# print(i)
+
+# for i in range(10):
+#     print(i)
+# Above is the same as below
+
+                #start:stop:step
+# for i in range(  0,   10,   1): 
+
+#     #3rd number in parameter is how many it can jump to count to so 2, 4, 6, 8, the middle value is when to stop the 1st value is where it starts.
+
+#     print(i)
+
+# for i in range(10,-1,-1): # While loop counting down
+#     print(i)
+# ______________________________________________________
+                #While Loops
+
+# num = 0
+
+# while num < 10: # Giving it a rule or it wont stop. 
+#     num += 1
+#     print(num)
+
+my_num = 28
+comp_num = random.randint(1,50)
+
+while my_num != comp_num:
+    print(f"The numbers {my_num} and {comp_num} do not match")
+    comp_num = random.randint(1,50)
+
+print(f"The numbers {my_num} and {comp_num} do match")
 
