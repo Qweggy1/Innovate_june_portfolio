@@ -135,7 +135,8 @@ import random
 #  make a string Variable
 #  if it reads forwards the same as backwards
 #  if it does say YES if it doesn't say no
-#  print(fav_genre[::])
+
+#  print(fav_genre[::]) Slices through the whole list start to end stepping by default 1
 
 # test = "madam"
 # if test == test[::-1]:
@@ -169,3 +170,31 @@ import random
 
 # # This while loop will always initialise It might go straight to the else/break - but it will have started.
 #________________________________________________________
+
+# ______________________________________________________
+                # Group Activity #1
+
+# # #Using try and except instead of if and elif
+
+# def number():
+#     num = input("Please input a number.")
+#     try:
+#         print(f"Success! {int(num)} has been converted into an integer.")
+#     except:
+#         print("Try again.")
+#         number()
+
+# number()
+
+# retry=True
+
+# while(retry):
+#   userstring=input("Enter an integer: ")
+#   try:
+#     retry=False
+#     userint=int(userstring)
+#   except:
+#     print("Please try again, That input was not convertible to an int")
+#     retry=True
+
+# print(f"Your integer was {userint}")

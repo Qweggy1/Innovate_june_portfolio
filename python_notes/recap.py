@@ -262,3 +262,17 @@ import random
 # answer=int(input("Type a number to see the letter!"))
 # answer -=1
 # print(alpha[answer])
+
+# fav_genre =[
+#     "1. Drum and Bass",
+#     "2. Techno",
+#     "3. Trance",
+#     "4. Rock",
+#     "5. Dance",
+#     "6. Pop"
+
+# ]
+# print(fav_genre)
+
+# print("What if your favorite genre out of the list? please type the corrosponding number")
+
