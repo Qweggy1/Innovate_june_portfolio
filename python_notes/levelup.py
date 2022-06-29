@@ -1,3 +1,4 @@
+import random
 # _______________________________________________________
                 #Beginning
 
@@ -61,7 +62,7 @@
 #     try:
 #         print(int(num1) + int(num2)) 
 
-# Try and #Similar to IF WHATIF AND ELSE
+# Try and Accept Similar to IF WHATIF AND ELSE
 # 
 #Except would give our own personal error message.
 #     except:
@@ -71,3 +72,100 @@
 
 # add_up()
 #______________________________________________________
+                #Scope - global/local variable
+
+# light = False
+
+# def light_switch():
+#     if light:
+#         print("Whoa! It's bright in here")  #THIS WILL NOT RUN AND ERROR OF LIGHT REFERENCED BEFOR ASSIGNMENT
+#         light = False <--- New Variable not reading from line 76 
+#     else:
+#         print("Who turned out the lights")
+#         light = True
+
+# light_switch()
+# light_switch()
+
+# light = False
+
+# def light_switch():
+#     global light # <--- It needs a Global Variable
+#     if light:
+#         print("Whoa! It's bright in here")  
+#         light = False
+#     else:
+#         print("Who turned out the lights")
+#         light = True
+
+# light_switch()
+# light_switch()
+# _______________________________________________________
+                #Lists and Tuples
+#Lists and typles are are a collection of values
+
+# List []
+# Tuple () - Can not be changed
+
+# even_nums =[2,4,6,8,10] <--- [] This is a list
+# even_nums.insert(0,0)
+# print(even_nums)
+
+# odd_nums=(1,3,5,7,9) <--- () This is a tuple
+
+# odd_nums.append(11) # <-- This is a tuple by using () and not [] so therefore can not be changed. If changed to [] it would run as this is know a list. 
+# _______________________________________________________
+                #Slice Notation
+
+# fav_genre =[
+#     "Drum and Bass",
+#     "Techno",
+#     "Trance",
+#     "Rock",
+#     "Dance",
+#     "Pop"
+
+# ]
+
+#  print(fav_genre[1:2:1])# < Slice Notation Start:Stop:Step
+
+# start:stop:step
+# print(fav_genre[1]) #this is an index position - it is the start value
+# print(fav_genre[1:2:1]) #this is actually what is happening - starting at one, stopping short of 2, and stepping by 1 at a time
+#  make a string Variable
+#  if it reads forwards the same as backwards
+#  if it does say YES if it doesn't say no
+#  print(fav_genre[::])
+
+# test = "madam"
+# if test == test[::-1]:
+#     print(f"Yes! {test} is a palindrome")
+# else:
+#     print("It is not a palindrome")
+#________________________________________________________
+                #while True
+
+# This is a while loop that compares a variable and runs under a condition.
+
+# num=random.randint(1,50)
+
+# while num%2==0:
+#     print("This even lets go again")
+#     num=random.randint(1,50)
+
+# #if the number is odd, the while loop will never run
+
+# print("Oh its odd, try again")
+
+# while True:
+#     num=random.randint(1,50)
+#     print(num)
+#     if num%2==0:
+#         print("Its an even number! lets go again")
+#         continue
+#     else:
+#         print("Oh its odd try again ?")
+#         break
+
+# # This while loop will always initialise It might go straight to the else/break - but it will have started.
+#________________________________________________________
