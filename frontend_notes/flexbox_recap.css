@@ -1,0 +1,146 @@
+/* FLEXBOX */
+
+/* Flexbox is used for one dimensional layouts
+like columns and rows (rows being default)
+
+Typically Flexbox's are in <div>
+
+.container {
+    display: flex; - Makes its flex box
+    min-height: 250vh; - Minimum height of the box
+    flex-direction: row; - row or columns
+
+example:-
+<div class="container">
+        <div class="box box1">1</div>
+        <div class="box box2">2</div>
+        <div class="box box3">3</div>
+        <div class="box box4">4</div>
+        <div class="box box5">5</div>
+        <div class="box box6">6</div>
+        <div class="box box7">7</div>
+        <div class="box box8">8</div>
+        <div class="box box9">9</div>
+        <div class="box box10">10</div>
+    </div>
+
+    * {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row; - can be change to a column
+}
+
+.box {
+    color: white;
+    font-size: 100px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    padding: 15px;
+    /*
+    width: 400px;
+    */
+
+
+/* Colours for each box */
+
+/* .box1 { background: #eccc68; }
+.box2 { background: #ff6348; }
+.box3 { background: #ff7f50; }
+.box4 { background: #ff4757; }
+.box5 { background: #f1c40f; }
+.box6 { background: #e67e22; }
+.box7 { background: #2ed573; }
+.box8 { background: #1e90ff; }
+.box9 { background: #c56cf0; }
+.box10 { background: #18dcff; } */
+
+/* column-reverse - flips axis */
+
+/* WRAPPING FLEXBOX */
+
+/* .container {
+    display: flex;
+    flex-wrap: wrap; - like word wrap but for containers
+} */
+
+/* FLEX FLOW AND ORDER */
+/* 
+.container {
+    display: flex;
+    min-height: 100px;
+    flex-flow: row wrap;
+}
+
+Order on the flex items, rather than the container 
+
+order is defaulted 0, order is used on the children not the parent
+
+.container {
+    display: flex;
+    min-height: 100px;
+}    
+    .box1 { background: #eccc68; }
+.box2 { background: #ff6348; }
+.box3 { background: #ff7f50; }
+.box4 { background: #ff4757; order:3; }
+.box5 { background: #f1c40f; order:-1; }
+.box6 { background: #e67e22; }
+.box7 { background: #2ed573; order:5; }
+.box8 { background: #1e90ff; }
+.box9 { background: #c56cf0; order:3; }
+.box10 { background: #18dcff; }
+}
+
+/* JUSTIFY CONTENT */
+
+/* Justify content is used to align my items along the main axis - horizontally if i'm in a row, or vertically if i'm in a comlumn.
+
+.container {
+    display: flex;
+    min-height: 100px;
+    justify-content: flex-end; - or flex-start; or centre; or space-between; or space-around; and space-evenly
+
+    Flexbox works out the spaces and location value for us. 
+*/
+
+/* ALIGN ITEMS */
+
+/* align-items is used to align my items along the correct axis.
+
+align-items: stretch; is fefault 
+
+align-items: flex-start - top of the container
+align-items: flex-end - bottom of container
+align-items: centre; - middle of the page - we can use justify content with align items to center them in the middle of the page. 
+
+*/
+
+/* Align Self */
+
+/* align self allows us to give flex items an alignment seperate 
+
+align-self:flex-end; - mostly used with children properties.
+
+align-self: center; or flex-start; or flex-end
+
+*/
+
+/* FLEX PROPERTYS GROW - SHRINK */
+
+/* flex-grow tells an item how much of the remaining container space it can use, default is 0. 
+
+flex-grow: 1; - has allowed that child to take up the remaining space up. 
+
+flex-grow: 2; - for as much space that child with flex-grow:1; 2 is double.
+
+Flex shrink does the opposite of flex grow
+if things are to big for the container give up the space. 
+
+flex-shrink: 2;  DEFAULT IS ALREADY SET TO 1 TO SEE A CHANGE IT HAS TO BE SOMETHING OTHER THAN "1" IN FLEX SHRINK. 
+
+
+ */

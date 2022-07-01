@@ -7,7 +7,7 @@ body{
 
 *{
     text-align: center;
-    
+
 }
 
 p {
@@ -36,4 +36,8 @@ img{
     display: block;
     width: 540px;
     font-family: 'Arima', cursive;
+}
+
+a:hover{
+    color: salmon;
 }
