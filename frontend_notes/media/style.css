@@ -1,0 +1,63 @@
+/* body{
+    color: red;
+    background-color: aquamarine;
+} */
+
+/* This rule applies for every viewport size 500px is the max width once this has been breached the default above will apply.  */
+
+/* @media (max-width: 500px) { 
+    body {
+        color:blue;
+    }
+} */
+
+/* .desktop, .mobile {
+    display: none;
+}
+
+@media (orientation: portrait) {
+    .title{
+        color:yellow;
+        background-color: black;
+        text-align: center;
+        padding: 5%;
+    }
+}
+
+@media (orientation: landscape) {
+    .subtitle{
+        color:green;
+        background-color: orange;
+        text-align: center;
+        padding: 5%;
+    }
+}
+
+@media (orientation: landscape) {
+    .desktop {
+        display: inline-block;
+    }
+}
+
+@media (orientation: portrait) {
+    .mobile {
+        display: inline-block;
+    }
+} */
+
+body{
+    background-color: blue;
+}
+
+@media (min-width: 600px){
+    body{
+        background-color: red
+    }
+}
+
+@media (min-width: 900px){
+    body{
+        background-color: mediumaquamarine
+    }
+
+}

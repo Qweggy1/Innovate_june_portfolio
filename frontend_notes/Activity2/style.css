@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.img {
+    background-color: cadetblue;
+    padding: 15px;
+}
