@@ -6,6 +6,8 @@ class Person():
         self.age = person_age
         self.height = person_height
 
+def set_hair(self, person_hair):
+    self.hair = person_hair
 
-
-
+def get_hair(self):
+    print(self.hair)
