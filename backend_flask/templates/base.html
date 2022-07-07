@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="./main.css".css">
-    <script src="./app.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,8 +8,10 @@
     <link rel="stylesheet" href="{{url_for('static', filename = 'main.css')}}">
     <title>JavaScript Events</title>
 </head>
+<body>
 <nav>
     <a href="{{ url_for('my_view.index')}}">Return to Home</a>
+    <a href="{{ url_for('my_view.page1')}}">Page 1</a>
     <a href="{{ url_for('my_view.page2')}}">Page 2</a>
     <a href="{{ url_for('my_view.page3')}}">Page 3</a>
     <a href="{{ url_for('my_view.page4')}}">Page 4</a>
@@ -21,3 +21,5 @@
 {% block content %}
 
 {% endblock %}
+</body>
+</html>

@@ -6,6 +6,10 @@ my_view = Blueprint('my_view', __name__)
 def index():
     return render_template("index.html")
 
+@my_view.route('/page1')
+def page1():
+    return render_template("page1.html")
+
 @my_view.route('/page2')
 def page2():
     return render_template("page2.html")
@@ -30,7 +34,7 @@ def admin():
 def page_not_found(e):
     return render_template("404.html")
 
-@my_view.route('/Javascript')
+@my_view.route('/javascript')
 @my_view.route('/js')
 @my_view.route('/home')
 def index_redirect():
